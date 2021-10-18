@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .box {
+        height: 200px;
+      }
+
+      div span {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+        display: inline-block;
+        background: purple;
+      }
+
+      .semih-bg:hover {
+        background: #468189;
+      }
+      .kadir-bg:hover {
+        background: rgb(170, 170, 170);
+      }
+      .emre-bg:hover {
+        background: rgb(247, 193, 94);
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav nav-tabs justify-content-center border-bottom">
+      <li class="nav-item"><a href="#" class="nav-link">Main Menu</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Aktas-ART</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Market</a></li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+          >Sepet</a
+        >
+
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item">5 x Macbook Pro 16</a></li>
+          <li><a href="#" class="dropdown-item">2 x Ipad Pro</a></li>
+          <li><a href="#" class="dropdown-item">14 x Iphone 13 Pro Max</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="container fst-italic mt-2">
+      <h1 class="text-center" style="font-family: 'Permanent Marker', cursive">
+        HEK - SOFTWARE
+      </h1>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="semih-bg card m-2" style="width: 18rem">
+          <img
+            style="border-radius: 50%"
+            src="https://media-exp1.licdn.com/dms/image/C5603AQGiJjXFT9GGng/profile-displayphoto-shrink_800_800/0/1603910284277?e=1640217600&v=beta&t=nZ5-p-Bsw9DRFuJdU4JZPwhgsODjUScpu1ZixRDJ8XU"
+            class="card-img-top p-3"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Hasan Semih Aktas</h5>
+            <p class="card-text">
+              UI Designer, Front-End<br />
+              <br />
+            </p>
+            <a
+              href="https://hsemihaktas.github.io"
+              class="btn btn-primary w-100"
+              >Website</a
+            >
+          </div>
+        </div>
+        <div class="card m-2 kadir-bg" style="width: 18rem">
+          <img
+            style="border-radius: 50%"
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQE4pe0pPgQ_LQ/profile-displayphoto-shrink_800_800/0/1603910761914?e=1640217600&v=beta&t=KfMpTBzzG-BF89S-jEQP9YUPFqvLgf8j_PpP3VdxTQU"
+            class="card-img-top p-3"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Kadir Güven</h5>
+            <p class="card-text">Data Analyzers, Money Managment, CFO, SQL,</p>
+            <a href="#" class="btn btn-primary w-100">Website </a>
+          </div>
+        </div>
+
+        <div class="card m-2 emre-bg" style="width: 18rem">
+          <img
+            style="border-radius: 50%"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQGnLnmaGYGxEA/profile-displayphoto-shrink_800_800/0/1616004984088?e=1640217600&v=beta&t=OqIF-k4VSi88nk1HA1bs-doK76Exp7jtzmUWLU1YG2Q"
+            class="card-img-top p-3"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Emre Cil</h5>
+            <p class="card-text">
+              Mobile Developer <br />
+              <br />
+            </p>
+            <a
+              href="https://kheseyroon.github.io"
+              target="_blank"
+              class="btn btn-primary w-100"
+              >Website</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tables -->
+    <div class="container mt-3">
+      <table class="table table-striped table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>11</td>
+            <td>Hasan Semih Aktas</td>
+            <td>CSE</td>
+            <td>24752</td>
+          </tr>
+
+          <tr>
+            <td>33</td>
+            <td>Kadir Guven</td>
+            <td>CSE</td>
+            <td>24806</td>
+          </tr>
+
+          <tr>
+            <td>44</td>
+            <td>Emre Cil</td>
+            <td>CSE</td>
+            <td>24873</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr />
+    <!-- Forms -->
+
+    <div class="container my-3">
+      <form>
+        <h3>Enter your informations</h3>
+        <hr />
+
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" class="form-control" />
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+              />
+              <small class="form-text text-danger"
+                >*Please provide a e-mail</small
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="language">Languages</label>
+          <select id="label" class="form-control">
+            <option value="Turkish">Turkish</option>
+            <option value="English" selected>English</option>
+            <option value="Spanish">Spanish</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea
+            class="form-control"
+            name="message"
+            id="message"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              name="accept"
+              id="accept"
+              class="form-check-input"
+            />
+            <label for="accept" class="form-check-text"
+              >I read all requirements</label
+            >
+          </div>
+        </div>
+
+        <div>
+          <button type="submit" class="btn btn-primary w-100">Sign in</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
