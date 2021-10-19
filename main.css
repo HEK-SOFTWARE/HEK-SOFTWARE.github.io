@@ -1,13 +1,36 @@
-.box {
-  height: 200px;
+a {
+  text-decoration: none;
+  color: white;
+}
+html {
+  font-family: "Open Sans", sans-serif;
 }
 
-div span {
-  width: 50px;
-  height: 50px;
-  margin: 20px;
-  display: inline-block;
-  background: purple;
+/* Navbar */
+
+#navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#navbar ul li a {
+  padding: 0.55rem;
+}
+
+#navbar ul li a:hover {
+  background: white;
+  border-radius: 5px;
 }
 
 .semih-bg:hover {
@@ -18,4 +41,21 @@ div span {
 }
 .emre-bg:hover {
   background: rgb(247, 193, 94);
+}
+
+#contact ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+#contact ul li a {
+  color: black;
+  padding: 0.4rem;
+  font-size: 1.6rem;
+}
+
+#contact ul li a:hover {
+  opacity: 0.6;
 }
