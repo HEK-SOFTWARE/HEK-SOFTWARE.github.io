@@ -6,33 +6,13 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-/* Navbar */
-
-#navbar {
+#navbar-text li a {
   color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0.75rem;
-  height: 70px;
 }
 
-#navbar ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
+#navbar-text li a:hover {
+  opacity: 0.6;
 }
-
-#navbar ul li a {
-  padding: 0.55rem;
-}
-
-#navbar ul li a:hover {
-  background: white;
-  border-radius: 5px;
-}
-
 .semih-bg:hover {
   background: #468189;
 }
